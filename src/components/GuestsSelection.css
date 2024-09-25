@@ -1,0 +1,55 @@
+.guests-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin: 20px;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+    max-width: 300px;
+}
+
+.guest-selection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.guest-label {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+}
+
+.guest-buttons {
+    display: flex;
+    align-items: center;
+}
+
+.guest-btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 5px 10px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.guest-btn:hover {
+    background-color: #0056b3;
+}
+
+.guest-count {
+    margin: 0 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.guest-count:focus {
+    outline: none;
+}
